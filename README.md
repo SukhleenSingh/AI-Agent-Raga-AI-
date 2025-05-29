@@ -1,10 +1,10 @@
-# 🧠 Multi-Agent Voice Finance Assistant
+# Multi-Agent Voice Finance Assistant
 
 This is a fully offline, voice-enabled multi-agent finance assistant built for the RAGA AI internship assignment. It delivers concise spoken market briefs on Asia tech stock exposure and earnings surprises using free open-source LLMs, embeddings, and speech tools.
 
 ---
 
-## 🚀 Use Case
+##  Use Case
 
 > “What’s our risk exposure in Asia tech stocks today, and highlight any earnings surprises?”
 
@@ -14,7 +14,7 @@ This is a fully offline, voice-enabled multi-agent finance assistant built for t
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 | Agent         | Description |
 |---------------|-------------|
@@ -27,7 +27,7 @@ This is a fully offline, voice-enabled multi-agent finance assistant built for t
 
 ---
 
-## 📥 Download Required Models
+##  Download Required Models
 DeepSeek R1 GGUF: Place your .gguf model file in a known path (e.g., C:/Models/deepseek.gguf)
 
 (Optional) BGE model: Already handled by sentence-transformers — downloads automatically
@@ -37,7 +37,7 @@ DeepSeek R1 GGUF: Place your .gguf model file in a known path (e.g., C:/Models/d
 ├── Dockerfile
 ├── README.md
 
-## ▶️ Running the App
+## ▶ Running the App
 1. Start the backend (FastAPI)
 bash
 Copy
@@ -51,7 +51,7 @@ Copy
 Edit
 streamlit run streamlit_app/app.py
 
-## 📁 Set Model Path (IMPORTANT)
+##  Set Model Path (IMPORTANT)
 bash
 Copy
 Edit
@@ -70,6 +70,6 @@ $env:LLM_PATH = "C:\Models\deepseek.gguf"
 
 ✅ Clean microservice architecture (FastAPI + Streamlit)
 
-## 📜 License
+##  License
 This project is open-source, created for submission to the RAGA AI internship assignment.
 
